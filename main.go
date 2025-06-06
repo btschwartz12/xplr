@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/crosleyzack/xplr/cmds"
+	"github.com/btschwartz12/xplr/cmds"
 )
 
 func main() {

@@ -3,15 +3,15 @@ package tui
 import (
 	"os"
 
+	"github.com/btschwartz12/xplr/pkg/keys"
+	"github.com/btschwartz12/xplr/pkg/modules/tree"
+	"github.com/btschwartz12/xplr/pkg/nodes"
+	"github.com/btschwartz12/xplr/pkg/styles"
 	"github.com/charmbracelet/bubbles/help"
 	"github.com/charmbracelet/bubbles/key"
 	"github.com/charmbracelet/bubbles/textinput"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/x/term"
-	"github.com/crosleyzack/xplr/internal/keys"
-	"github.com/crosleyzack/xplr/internal/modules/tree"
-	"github.com/crosleyzack/xplr/internal/nodes"
-	"github.com/crosleyzack/xplr/internal/styles"
 )
 
 // Model for the JSON tree

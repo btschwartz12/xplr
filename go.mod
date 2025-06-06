@@ -1,4 +1,4 @@
-module github.com/crosleyzack/xplr
+module github.com/btschwartz12/xplr
 
 go 1.23.8
 

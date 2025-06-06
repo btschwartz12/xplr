@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/btschwartz12/xplr/pkg/nodes"
 	"github.com/charmbracelet/bubbles/key"
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/crosleyzack/xplr/internal/nodes"
 )
 
 // Update the JSON component

@@ -6,13 +6,13 @@ import (
 	"os"
 	"strings"
 
+	"github.com/btschwartz12/xplr/pkg/format"
+	"github.com/btschwartz12/xplr/pkg/keys"
+	"github.com/btschwartz12/xplr/pkg/modules/tree"
+	"github.com/btschwartz12/xplr/pkg/nodes"
+	"github.com/btschwartz12/xplr/pkg/styles"
+	"github.com/btschwartz12/xplr/pkg/tui"
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/crosleyzack/xplr/internal/format"
-	"github.com/crosleyzack/xplr/internal/keys"
-	"github.com/crosleyzack/xplr/internal/modules/tree"
-	"github.com/crosleyzack/xplr/internal/nodes"
-	"github.com/crosleyzack/xplr/internal/styles"
-	"github.com/crosleyzack/xplr/internal/tui"
 	"github.com/spf13/cobra"
 )
 

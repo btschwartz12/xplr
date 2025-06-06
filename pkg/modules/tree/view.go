@@ -5,8 +5,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
+	"github.com/btschwartz12/xplr/pkg/nodes"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/crosleyzack/xplr/internal/nodes"
 )
 
 const (

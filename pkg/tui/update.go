@@ -3,9 +3,9 @@ package tui
 import (
 	"fmt"
 
+	"github.com/btschwartz12/xplr/pkg/modules/tree"
 	"github.com/charmbracelet/bubbles/key"
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/crosleyzack/xplr/internal/modules/tree"
 )
 
 // Update the tree view component

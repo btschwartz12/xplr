@@ -3,10 +3,10 @@ package tree
 import (
 	"fmt"
 
+	"github.com/btschwartz12/xplr/pkg/keys"
+	"github.com/btschwartz12/xplr/pkg/nodes"
+	"github.com/btschwartz12/xplr/pkg/styles"
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/crosleyzack/xplr/internal/keys"
-	"github.com/crosleyzack/xplr/internal/nodes"
-	"github.com/crosleyzack/xplr/internal/styles"
 )
 
 // inspired by https://github.com/savannahostrowski/tree-bubble/blob/main/tree.go
